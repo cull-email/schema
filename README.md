@@ -1,6 +1,6 @@
-# schema for [cull](https://cull.email)
+# schema for [Cull](https://cull.email)
 
-Data models for cull.
+Data models for Cull.
 
 ## Installation
 
