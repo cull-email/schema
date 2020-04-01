@@ -5,7 +5,7 @@ Data models for cull.
 ## Installation
 
 ```sh
-npm install cull-email-schema
+npm install @cull/schema
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install cull-email-schema
 This library is mostly useful in the typescript context to leverage the declared types.
 
 ```js
-import { Message, Organization, Sender } from 'cull-email-schema';
+import { Message, Organization, Sender } from '@cull/schema';
 
 let m = new Message({...});
 ```
@@ -80,4 +80,4 @@ An email message.
 
 ## Development
 
-[`makefile`](makefile) codifies directives for building, testing, linting and other development oriented tasks.
+[`makefile`](https://github.com/cull-email/schema/blob/master/makefile) codifies directives for building, testing, linting and other development oriented tasks.

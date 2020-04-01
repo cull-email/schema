@@ -1,10 +1,17 @@
 {
-  "name": "cull-email-schema",
-  "version": "0.0.1",
+  "name": "@cull/schema",
+  "version": "0.0.2",
   "description": "Data models for cull.",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
+  "scripts": {
+    "build": "make build",
+    "watch": "make watch",
+    "test": "make test",
+    "lint": "make lint",
+    "coverage": "make coverage"
+  },
   "keywords": [
     "javascript",
     "typescript",
